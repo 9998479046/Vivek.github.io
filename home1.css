@@ -1,0 +1,166 @@
+html
+{
+    font-size: 125%;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+ul
+{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    margin-left: 85rem;
+    
+}
+li
+{
+    display: inline;
+    margin: 1rem;
+    
+}
+.div1
+{
+    background-color: transparent;
+}
+body
+{
+    background-image: url("macos-mojave.jpg");
+    background-repeat: no-repeat;
+    background-size:120rem 100rem;
+}
+nav
+{
+    color: rgb(250, 250, 250);
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    position: fixed;
+}
+.p1
+{
+    color: rgb(250, 250, 250);
+    font-size: 2rem;
+    margin-top: 9rem;
+    margin-left: 10rem;
+    font-family:fantasy;
+}
+.c1
+{
+    color: rgb(250, 250, 250);
+    font-size: 4rem;
+    margin-left: 10rem;
+    margin-top:0rem;
+    font-family:fantasy;
+}
+.p0
+{
+    color: rgb(234, 130, 178);
+    font-size: 3rem;
+    margin-left: 10rem;
+    font-family:fantasy;
+}
+.link
+{
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+
+}
+li a:hover
+{
+    color: rgb(234, 130, 178);
+
+}
+.About{
+    margin-top: 55rem;
+    background-color : black;
+    padding: 3rem;
+    height: 85rem;
+}
+.p3
+{
+    color: rgb(250, 250, 250);
+    text-align: center;
+    /* text-decoration: underline; */
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    border-bottom-style: solid;
+    border-bottom-width:.3rem;
+    width: fit-content;
+    margin-top: 9rem;
+
+}
+.profile
+{
+    height: 40rem;
+    width: 30rem;
+    margin-left: 7rem;
+    margin-top: 8rem;
+    border-radius: 5rem;
+}
+.p4
+{
+    color: rgb(250, 250, 250);
+    float: right;
+    font-size: 3rem;
+    margin-top: 10rem;
+    margin-right: 15rem;
+    height: auto;
+    width: 55rem;
+}
+nav a
+{
+    overflow: hidden;
+
+}
+.contact
+{
+    background-image: url('contactMe.jpeg');
+    background-repeat: no-repeat;
+    background-size:120rem 100rem;
+    margin-top:0rem;
+    background-color : black;
+    padding: 10rem;
+    height: 80rem;
+}
+
+.call{
+    height: 4rem;
+    width: 4rem;
+    margin-top:6rem;
+    margin-right: -40rem;
+}
+.p5{
+    color: rgb(250, 250, 250);
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    border-bottom-style: solid;
+    border-bottom-width: .3rem;
+    width: fit-content;
+    margin-top: 6rem;
+    float: right;
+    margin-right: 40rem;
+}
+.div3
+{
+    color: white;
+    font-size: 3rem;
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+.div4
+{
+    font-size: 1.5rem;
+}
+
+@media(max-width:99.8rem) 
+{
+    html
+    {
+        font-size: 55%;
+
+    }
+}
